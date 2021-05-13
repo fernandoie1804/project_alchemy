@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Making the page responsive for different device sizes-->
+  <title>Show Dog</title>
+  <script src="js/index.js"></script>
+  <!--Connecting with JS code, file index.js-->
+  <link rel="stylesheet" href="css/style.css">
+  <!--Connecting with CSS style sheet, file style.css-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Overpass">
+  <!--gooogle fonts library-->
+</head>
+
+<body>
+
+  <div id="main">
+
+    <button class="openbtn" onclick="openNav()">☰</button>
+    <!--Function called to open side menu-->
+
+    <div class="header">
+
+      <h1>Alchemy Global Solutions</h1>
+      <p>Intern Basic Competency Test</p>
+      <p>Practical Task</p>
+
+    </div>
+
+    <div class="container">
+
+      <img id="image" src="images/dog.gif" width="420" height="400">
+      <button id="button" onclick="get_dog_image()"> Click Me! </button>
+      <!--Function called to generate random image-->
+
+    </div>
+
+    <div id="mySidenav" class="sidenav">
+
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <!--Function called to close side menu-->
+      <img src="images/Logo PNG.png" alt="alchemy_logo">
+      <p> Fernando De Oliveira</p>
+      <p> Job Title: SDET</p>
+      <p><a href="Intern Competency Test Fernando de Oliveira.pdf">Technical Competency Test </a></p>
+
+    </div>
+  </div>
+</body>
+
+</html>
